@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  KcDragonBallz
+
+  Created by Cristian Contreras Velásquez on 14-03-24.
+  
+*/
+
+//English
+"Email"="e-mail";
+"Password"="Password";
+"Login"="Login";
+"Back"="Back";

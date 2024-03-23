@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="327" id="KGk-i7-Jjw" customClass="TransformationsTableViewCell" customModule="KcDragonBallz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="536" height="327"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="536" height="327"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4j8-mn-PP5" userLabel="Photo">
+                        <rect key="frame" x="16" y="107.33333333333334" width="200" height="112.33333333333334"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="4j8-mn-PP5" secondAttribute="height" multiplier="16:9" id="Smc-jc-7ha"/>
+                            <constraint firstAttribute="width" constant="200" id="vyN-Vy-Knt"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUT-HH-rZB" userLabel="Title">
+                        <rect key="frame" x="16" y="16" width="504" height="75.333333333333329"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIA-Xt-aGM">
+                        <rect key="frame" x="232" y="91.333333333333329" width="288" height="219.66666666666669"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="ColorYellow"/>
+                <constraints>
+                    <constraint firstItem="4j8-mn-PP5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="NrJ-st-2PD"/>
+                    <constraint firstItem="DIA-Xt-aGM" firstAttribute="top" secondItem="TUT-HH-rZB" secondAttribute="bottom" id="S1O-RW-YaP"/>
+                    <constraint firstAttribute="trailing" secondItem="DIA-Xt-aGM" secondAttribute="trailing" constant="16" id="TzV-41-Hcu"/>
+                    <constraint firstItem="4j8-mn-PP5" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cQc-eD-YLb"/>
+                    <constraint firstItem="TUT-HH-rZB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="mYY-ym-soA"/>
+                    <constraint firstAttribute="trailing" secondItem="TUT-HH-rZB" secondAttribute="trailing" constant="16" id="nTK-lc-TG3"/>
+                    <constraint firstItem="4j8-mn-PP5" firstAttribute="top" secondItem="TUT-HH-rZB" secondAttribute="bottom" constant="16" id="nVm-rF-QXt"/>
+                    <constraint firstAttribute="bottom" secondItem="DIA-Xt-aGM" secondAttribute="bottom" constant="16" id="pbX-O0-NKr"/>
+                    <constraint firstItem="DIA-Xt-aGM" firstAttribute="leading" secondItem="4j8-mn-PP5" secondAttribute="trailing" constant="16" id="vIa-fJ-iDq"/>
+                    <constraint firstItem="TUT-HH-rZB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="zxh-Ep-srP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="photo" destination="4j8-mn-PP5" id="rWY-Z2-bTQ"/>
+                <outlet property="title" destination="TUT-HH-rZB" id="U0l-NF-Qed"/>
+                <outlet property="transfDescription" destination="DIA-Xt-aGM" id="omC-zw-9gf"/>
+            </connections>
+            <point key="canvasLocation" x="221.37404580152671" y="5.2816901408450709"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="ColorYellow">
+            <color red="1" green="0.83137254901960789" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
