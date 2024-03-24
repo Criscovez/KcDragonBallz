@@ -12,7 +12,6 @@
 		24F8D6D22BA0DE7F005267E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D6D12BA0DE7F005267E3 /* Assets.xcassets */; };
 		24F8D6D52BA0DE7F005267E3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D6D42BA0DE7F005267E3 /* Base */; };
 		24F8D6E02BA0DE7F005267E3 /* KcDragonBallzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D6DF2BA0DE7F005267E3 /* KcDragonBallzTests.swift */; };
-		24F8D70E2BA0F692005267E3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D70D2BA0F692005267E3 /* AppState.swift */; };
 		24F8D74D2BA2AD0E005267E3 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D74C2BA2AD0E005267E3 /* LoginUseCase.swift */; };
 		24F8D74F2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D74E2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift */; };
 		24F8D7512BA2AF6B005267E3 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7502BA2AF6B005267E3 /* Endpoints.swift */; };
@@ -48,6 +47,7 @@
 		24F8D7A02BAB66E4005267E3 /* LoginViewControllerx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D79D2BAB66E4005267E3 /* LoginViewControllerx.swift */; };
 		24F8D7BA2BAF2DC5005267E3 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7B92BAF2DC5005267E3 /* KeyChain.swift */; };
 		24F8D7BD2BAF3085005267E3 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 24F8D7BC2BAF3085005267E3 /* KeychainSwift */; };
+		24F8D7BF2BB0E58F005267E3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7BE2BB0E58F005267E3 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,6 @@
 		24F8D6D62BA0DE7F005267E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F8D6DB2BA0DE7F005267E3 /* KcDragonBallzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KcDragonBallzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F8D6DF2BA0DE7F005267E3 /* KcDragonBallzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcDragonBallzTests.swift; sourceTree = "<group>"; };
-		24F8D70D2BA0F692005267E3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		24F8D74C2BA2AD0E005267E3 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
 		24F8D74E2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryProtocol.swift; sourceTree = "<group>"; };
 		24F8D7502BA2AF6B005267E3 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
@@ -105,6 +104,7 @@
 		24F8D79D2BAB66E4005267E3 /* LoginViewControllerx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerx.swift; sourceTree = "<group>"; };
 		24F8D79E2BAB66E4005267E3 /* LoginViewControllerx.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewControllerx.xib; sourceTree = "<group>"; };
 		24F8D7B92BAF2DC5005267E3 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		24F8D7BE2BB0E58F005267E3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,7 +192,7 @@
 		24F8D6FA2BA0E2DA005267E3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				24F8D70D2BA0F692005267E3 /* AppState.swift */,
+				24F8D7BE2BB0E58F005267E3 /* AppState.swift */,
 				24F8D77E2BA87A24005267E3 /* HerosViewModel.swift */,
 				24F8D79B2BAA1E95005267E3 /* TransformationsViewModel.swift */,
 				24F8D7B92BAF2DC5005267E3 /* KeyChain.swift */,
@@ -469,8 +469,8 @@
 				24F8D7562BA2B1D2005267E3 /* HTTPMethods.swift in Sources */,
 				24F8D7792BA7D583005267E3 /* NetworkHeros.swift in Sources */,
 				24F8D77F2BA87A24005267E3 /* HerosViewModel.swift in Sources */,
+				24F8D7BF2BB0E58F005267E3 /* AppState.swift in Sources */,
 				24F8D7A02BAB66E4005267E3 /* LoginViewControllerx.swift in Sources */,
-				24F8D70E2BA0F692005267E3 /* AppState.swift in Sources */,
 				24F8D6C92BA0DE7D005267E3 /* AppDelegate.swift in Sources */,
 				24F8D7922BA9CD99005267E3 /* TransformationsModel.swift in Sources */,
 				24F8D7692BA7360D005267E3 /* LoginRepository.swift in Sources */,

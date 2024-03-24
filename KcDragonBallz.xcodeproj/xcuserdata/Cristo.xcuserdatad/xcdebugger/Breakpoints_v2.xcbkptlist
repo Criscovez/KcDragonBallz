@@ -14,8 +14,8 @@
             filePath = "KcDragonBallz/Presentations/ViewModels/AppState.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "loginApp(user:pass:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "KcDragonBallz/Presentations/ViewModels/AppState.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "loginApp(user:pass:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -112,7 +112,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "206"
             endingLineNumber = "206"
-            landmarkName = "testHeroViewModel()"
+            landmarkName = "testTransformationsUseCase()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -128,7 +128,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "255"
             endingLineNumber = "255"
-            landmarkName = "testHerosCombine()"
+            landmarkName = "testTransformationsCombine()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -160,7 +160,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "227"
             endingLineNumber = "227"
-            landmarkName = "testTransformationsUseCase()"
+            landmarkName = "testHerosCombine()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

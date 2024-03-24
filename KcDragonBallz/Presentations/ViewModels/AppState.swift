@@ -2,7 +2,7 @@
 //  AppState.swift
 //  KcDragonBallz
 //
-//  Created by Cristian Contreras Velásquez on 12-03-24.
+//  Created by Cristian Contreras Velásquez on 24-03-24.
 //
 
 import Foundation
@@ -13,7 +13,7 @@ enum LoginStatus {
     case none
     case success
     case error
-    case notValidate //no validado el token
+    case notValidate
 }
 
 //ViewModel
