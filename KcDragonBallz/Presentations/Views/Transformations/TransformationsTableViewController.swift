@@ -10,7 +10,7 @@ import Combine
 
 class TransformationsTableViewController: UITableViewController {
 
-    private var appState: AppState//?
+    private var appState: AppState
     private var viewModel: TransformationsViewModel
    
     
@@ -30,9 +30,7 @@ class TransformationsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-      
-        
+        //Color de fondo de la vista
         self.view.backgroundColor = .colorYellow
 
         //reguistro de celda personalizada
@@ -41,16 +39,11 @@ class TransformationsTableViewController: UITableViewController {
         //titulo en el navigation controller
         self.title = "Lista de Transformaciones"
         
-//        //añadir un boton para cerrar sesion
-//        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .close, target: self, action: #selector(closeSession))
-        
-        //binding the view whith teh view model
+
         binding()
     }
     
-//    @objc  func closeSession(){
-//        appState.closeSessionUser()
-//      }
+
       
       func binding() {
           self.viewModel.$transformationsData

@@ -12,8 +12,6 @@
 		24F8D6D22BA0DE7F005267E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D6D12BA0DE7F005267E3 /* Assets.xcassets */; };
 		24F8D6D52BA0DE7F005267E3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D6D42BA0DE7F005267E3 /* Base */; };
 		24F8D6E02BA0DE7F005267E3 /* KcDragonBallzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D6DF2BA0DE7F005267E3 /* KcDragonBallzTests.swift */; };
-		24F8D7092BA0E59E005267E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7072BA0E59E005267E3 /* LoginViewController.swift */; };
-		24F8D70C2BA0E7B8005267E3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D70B2BA0E7B8005267E3 /* LoginView.swift */; };
 		24F8D70E2BA0F692005267E3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D70D2BA0F692005267E3 /* AppState.swift */; };
 		24F8D74D2BA2AD0E005267E3 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D74C2BA2AD0E005267E3 /* LoginUseCase.swift */; };
 		24F8D74F2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D74E2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift */; };
@@ -26,7 +24,6 @@
 		24F8D7622BA37602005267E3 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D75F2BA37602005267E3 /* ErrorViewController.swift */; };
 		24F8D7662BA379BA005267E3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D7642BA379BA005267E3 /* Localizable.strings */; };
 		24F8D7692BA7360D005267E3 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7682BA7360D005267E3 /* LoginRepository.swift */; };
-		24F8D7702BA74714005267E3 /* KcLibraryswift in Frameworks */ = {isa = PBXBuildFile; productRef = 24F8D76F2BA74714005267E3 /* KcLibraryswift */; };
 		24F8D7732BA781E8005267E3 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 24F8D7722BA781E8005267E3 /* CombineCocoa */; };
 		24F8D7752BA7D332005267E3 /* HerosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7742BA7D332005267E3 /* HerosModel.swift */; };
 		24F8D7772BA7D3F0005267E3 /* HerosRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7762BA7D3F0005267E3 /* HerosRepositoryProtocol.swift */; };
@@ -49,7 +46,8 @@
 		24F8D79C2BAA1E95005267E3 /* TransformationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D79B2BAA1E95005267E3 /* TransformationsViewModel.swift */; };
 		24F8D79F2BAB66E4005267E3 /* LoginViewControllerx.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D79E2BAB66E4005267E3 /* LoginViewControllerx.xib */; };
 		24F8D7A02BAB66E4005267E3 /* LoginViewControllerx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D79D2BAB66E4005267E3 /* LoginViewControllerx.swift */; };
-		24F8D7B82BAE2A44005267E3 /* Saiyan-Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8D7B72BAE2A44005267E3 /* Saiyan-Sans.ttf */; };
+		24F8D7BA2BAF2DC5005267E3 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F8D7B92BAF2DC5005267E3 /* KeyChain.swift */; };
+		24F8D7BD2BAF3085005267E3 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 24F8D7BC2BAF3085005267E3 /* KeychainSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +69,6 @@
 		24F8D6D62BA0DE7F005267E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F8D6DB2BA0DE7F005267E3 /* KcDragonBallzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KcDragonBallzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F8D6DF2BA0DE7F005267E3 /* KcDragonBallzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KcDragonBallzTests.swift; sourceTree = "<group>"; };
-		24F8D7072BA0E59E005267E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		24F8D70B2BA0E7B8005267E3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		24F8D70D2BA0F692005267E3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		24F8D74C2BA2AD0E005267E3 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
 		24F8D74E2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryProtocol.swift; sourceTree = "<group>"; };
@@ -108,7 +104,7 @@
 		24F8D79B2BAA1E95005267E3 /* TransformationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationsViewModel.swift; sourceTree = "<group>"; };
 		24F8D79D2BAB66E4005267E3 /* LoginViewControllerx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerx.swift; sourceTree = "<group>"; };
 		24F8D79E2BAB66E4005267E3 /* LoginViewControllerx.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewControllerx.xib; sourceTree = "<group>"; };
-		24F8D7B72BAE2A44005267E3 /* Saiyan-Sans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saiyan-Sans.ttf"; sourceTree = "<group>"; };
+		24F8D7B92BAF2DC5005267E3 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F8D7BD2BAF3085005267E3 /* KeychainSwift in Frameworks */,
 				24F8D7732BA781E8005267E3 /* CombineCocoa in Frameworks */,
-				24F8D7702BA74714005267E3 /* KcLibraryswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +148,6 @@
 		24F8D6C72BA0DE7D005267E3 /* KcDragonBallz */ = {
 			isa = PBXGroup;
 			children = (
-				24F8D7B72BAE2A44005267E3 /* Saiyan-Sans.ttf */,
 				24F8D6F82BA0E2BA005267E3 /* Presentations */,
 				24F8D6FE2BA0E349005267E3 /* Domain */,
 				24F8D7032BA0E387005267E3 /* Data */,
@@ -200,6 +195,7 @@
 				24F8D70D2BA0F692005267E3 /* AppState.swift */,
 				24F8D77E2BA87A24005267E3 /* HerosViewModel.swift */,
 				24F8D79B2BAA1E95005267E3 /* TransformationsViewModel.swift */,
+				24F8D7B92BAF2DC5005267E3 /* KeyChain.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -207,8 +203,6 @@
 		24F8D6FB2BA0E311005267E3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				24F8D7072BA0E59E005267E3 /* LoginViewController.swift */,
-				24F8D70B2BA0E7B8005267E3 /* LoginView.swift */,
 				24F8D79D2BAB66E4005267E3 /* LoginViewControllerx.swift */,
 				24F8D79E2BAB66E4005267E3 /* LoginViewControllerx.xib */,
 			);
@@ -287,16 +281,8 @@
 			children = (
 				24F8D7062BA0E3A3005267E3 /* Repositories */,
 				24F8D7052BA0E396005267E3 /* Network */,
-				24F8D7042BA0E38F005267E3 /* Local */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		24F8D7042BA0E38F005267E3 /* Local */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Local;
 			sourceTree = "<group>";
 		};
 		24F8D7052BA0E396005267E3 /* Network */ = {
@@ -382,8 +368,8 @@
 			);
 			name = KcDragonBallz;
 			packageProductDependencies = (
-				24F8D76F2BA74714005267E3 /* KcLibraryswift */,
 				24F8D7722BA781E8005267E3 /* CombineCocoa */,
+				24F8D7BC2BAF3085005267E3 /* KeychainSwift */,
 			);
 			productName = KcDragonBallz;
 			productReference = 24F8D6C52BA0DE7D005267E3 /* KcDragonBallz.app */;
@@ -437,8 +423,8 @@
 			);
 			mainGroup = 24F8D6BC2BA0DE7D005267E3;
 			packageReferences = (
-				24F8D76E2BA74714005267E3 /* XCRemoteSwiftPackageReference "KcLibraryswift" */,
 				24F8D7712BA781E8005267E3 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				24F8D7BB2BAF3085005267E3 /* XCRemoteSwiftPackageReference "keychain-swift" */,
 			);
 			productRefGroup = 24F8D6C62BA0DE7D005267E3 /* Products */;
 			projectDirPath = "";
@@ -457,7 +443,6 @@
 			files = (
 				24F8D78F2BA92B7A005267E3 /* TransformationsTableViewCell.xib in Resources */,
 				24F8D7662BA379BA005267E3 /* Localizable.strings in Resources */,
-				24F8D7B82BAE2A44005267E3 /* Saiyan-Sans.ttf in Resources */,
 				24F8D6D22BA0DE7F005267E3 /* Assets.xcassets in Resources */,
 				24F8D79F2BAB66E4005267E3 /* LoginViewControllerx.xib in Resources */,
 				24F8D7612BA37602005267E3 /* ErrorViewController.xib in Resources */,
@@ -483,7 +468,6 @@
 				24F8D75A2BA2B383005267E3 /* NetworkLogin.swift in Sources */,
 				24F8D7562BA2B1D2005267E3 /* HTTPMethods.swift in Sources */,
 				24F8D7792BA7D583005267E3 /* NetworkHeros.swift in Sources */,
-				24F8D7092BA0E59E005267E3 /* LoginViewController.swift in Sources */,
 				24F8D77F2BA87A24005267E3 /* HerosViewModel.swift in Sources */,
 				24F8D7A02BAB66E4005267E3 /* LoginViewControllerx.swift in Sources */,
 				24F8D70E2BA0F692005267E3 /* AppState.swift in Sources */,
@@ -502,9 +486,9 @@
 				24F8D7862BA88CFF005267E3 /* HeroTableViewCell.swift in Sources */,
 				24F8D7962BAA0F13005267E3 /* TransformsRepository.swift in Sources */,
 				24F8D79A2BAA16EC005267E3 /* TransformationsUseCase.swift in Sources */,
+				24F8D7BA2BAF2DC5005267E3 /* KeyChain.swift in Sources */,
 				24F8D74F2BA2ADE2005267E3 /* LoginRepositoryProtocol.swift in Sources */,
 				24F8D7882BA8C974005267E3 /* UIImageView+extension.swift in Sources */,
-				24F8D70C2BA0E7B8005267E3 /* LoginView.swift in Sources */,
 				24F8D78B2BA92B09005267E3 /* TransformationsTableViewController.swift in Sources */,
 				24F8D6CB2BA0DE7D005267E3 /* SceneDelegate.swift in Sources */,
 				24F8D7512BA2AF6B005267E3 /* Endpoints.swift in Sources */,
@@ -807,14 +791,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		24F8D76E2BA74714005267E3 /* XCRemoteSwiftPackageReference "KcLibraryswift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/joselbe1976/KcLibraryswift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.2;
-			};
-		};
 		24F8D7712BA781E8005267E3 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
@@ -823,18 +799,26 @@
 				minimumVersion = 0.4.1;
 			};
 		};
+		24F8D7BB2BAF3085005267E3 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 21.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		24F8D76F2BA74714005267E3 /* KcLibraryswift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 24F8D76E2BA74714005267E3 /* XCRemoteSwiftPackageReference "KcLibraryswift" */;
-			productName = KcLibraryswift;
-		};
 		24F8D7722BA781E8005267E3 /* CombineCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 24F8D7712BA781E8005267E3 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
 			productName = CombineCocoa;
+		};
+		24F8D7BC2BAF3085005267E3 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24F8D7BB2BAF3085005267E3 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

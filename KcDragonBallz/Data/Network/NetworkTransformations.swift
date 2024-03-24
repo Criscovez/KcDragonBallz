@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import KcLibraryswift
 
 protocol NetworkTransformationsProtocol {
     func getTransformations(filter: UUID) async -> [TransformationsModel]
@@ -22,7 +21,7 @@ final class NetworkTransformations: NetworkTransformationsProtocol {
         request.addValue(HTTPMethods.content, forHTTPHeaderField: "Content-type")
         
         //necesitamos el token JWT
-        let tokenJWT = KeyChainKC().loadKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+        let tokenJWT = loadKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
         
         if let token = tokenJWT {
             request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")

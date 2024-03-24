@@ -35,7 +35,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 case .notValidate, .none:
                     //ver el login
                     DispatchQueue.main.async {
-                        print("vamos pal login")
+                        print("login")
                         nav = UINavigationController(rootViewController: LoginViewControllerx(appState: self.appState))
                         
                         self.window!.rootViewController = nav
@@ -45,7 +45,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     //la home
                     
                     DispatchQueue.main.async {
-                        print("vamos pal home")
+                        print("heroes")
                         nav = UINavigationController(rootViewController: HerosTableViewController(appState: self.appState, viewModel: HerosViewModel()))
                         
                         self.window!.rootViewController = nav
@@ -54,7 +54,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 case .error:
                     //error
                     DispatchQueue.main.async {
-                        print("vamos pal error")
+                        print("error")
                         nav = UINavigationController(rootViewController: ErrorViewController(appState: self.appState, error: "Error usuario / Clave"))
                         
                         self.window!.rootViewController = nav

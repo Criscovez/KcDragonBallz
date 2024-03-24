@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import KcLibraryswift
 
 
 
@@ -32,10 +31,10 @@ final class LoginUseCase: LoginUseCaseProtocol {
         //guardar token en keychanin
         
         if token != "" {
-            KeyChainKC().saveKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN, value: token)
+            saveKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN, value: token)
             return true
         } else {
-            KeyChainKC().deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+            deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
             return false
             
         }
@@ -43,12 +42,12 @@ final class LoginUseCase: LoginUseCaseProtocol {
     }
     
     func logout() async {
-        KeyChainKC().deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+        deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
         //logout
     }
     
     func validateToken() async -> Bool {
-        if KeyChainKC().loadKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN) != "" {
+        if loadKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN) != "" {
             return true
         } else {
             return false
@@ -71,10 +70,10 @@ final class LoginUseCaseFake: LoginUseCaseProtocol {
         //guardar token en keychanin
         
         if token != "" {
-            KeyChainKC().saveKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN, value: token)
+            saveKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN, value: token)
             return true
         } else {
-            KeyChainKC().deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+            deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
             return false
             
         }
@@ -82,7 +81,7 @@ final class LoginUseCaseFake: LoginUseCaseProtocol {
     }
     
     func logout() async {
-        KeyChainKC().deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+        deleteKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
         //logout
     }
     

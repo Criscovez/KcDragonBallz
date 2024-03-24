@@ -42,17 +42,17 @@ final class AppState {
             }
         }
     }
-    //evaluo autologin
     
+    //evaluo autologin
     func validateControlLogin() {
         Task {
             if (await loginUseCase.validateToken()) {
-                //esta lagado ya.
+                
                 self.statusLogin = .success
                 
             } else {
                 
-                self.statusLogin = .notValidate
+                self.statusLogin = .notValidate //no validado el token
             }
         }
     }

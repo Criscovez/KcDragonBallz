@@ -62,7 +62,7 @@ class HerosTableViewController: UITableViewController {
             .receive(on: DispatchQueue.main)
             .sink(receiveValue: { data in
                 //recargamos la tabla
-                print("data binding\(data)")
+                //print("data binding\(data)")
                 self.tableView.reloadData()
             })
             .store(in: &suscriptors)
@@ -105,9 +105,7 @@ class HerosTableViewController: UITableViewController {
         let heroId = self.viewModel.herosData[indexPath.row].id
         
         DispatchQueue.main.async {
-            print("pal transformations\(heroId)")
-            //let hero = self.heroes[indexPath.row]
-            //let transformationsViewController = HeroDetailViewController(hero: heroId)
+            //print("pal transformations\(heroId)")
             let transformationsViewController = TransformationsTableViewController(appState: self.appState, viewModel: TransformationsViewModel(heroId: heroId))
             self.navigationController?.show(transformationsViewController, sender: nil)
             

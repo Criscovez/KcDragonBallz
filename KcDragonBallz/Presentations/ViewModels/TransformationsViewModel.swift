@@ -23,11 +23,11 @@ final class TransformationsViewModel: ObservableObject {
         
     }
     
-    //carga de los heroes
+    //carga de las transformaciones
     func getTransformations() async {
-        let data = await userCaseTransformations.getTransformations(filter: heroId) //ahora no aplicamos el filtro
+        let data = await userCaseTransformations.getTransformations(filter: heroId)
         
-        //asigno en el hilo principal para la act. de la UI
+
         DispatchQueue.main.async {
             self.transformationsData = data
         }

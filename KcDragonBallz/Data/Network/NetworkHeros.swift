@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import KcLibraryswift
+import KeychainSwift
 
 protocol NetworkHerosProtocol {
     func getHeros(filter: String) async -> [HerosModel]
@@ -22,7 +22,7 @@ final class NetworkHeros: NetworkHerosProtocol {
         request.addValue(HTTPMethods.content, forHTTPHeaderField: "Content-type")
         
         //necesitamos el token JWT
-        let tokenJWT = KeyChainKC().loadKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
+        let tokenJWT = loadKC(key: ConstantsApp.CONST_TOKEN_ID_KEYCHAIN)
         
         if let token = tokenJWT {
             request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
